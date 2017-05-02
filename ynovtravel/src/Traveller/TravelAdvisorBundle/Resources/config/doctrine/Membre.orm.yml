@@ -1,0 +1,20 @@
+Traveller\TravelAdvisorBundle\Entity\Membre:
+    type: entity
+    table: null
+    repositoryClass: Traveller\TravelAdvisorBundle\Repository\MembreRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+        prenom:
+            type: string
+            length: 255
+        created:
+            type: datetime
+    lifecycleCallbacks: {  }

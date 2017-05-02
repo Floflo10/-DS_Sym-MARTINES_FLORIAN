@@ -1,0 +1,3 @@
+travel_advisor:
+    resource: "@TravelAdvisorBundle/Resources/config/routing.yml"
+    prefix:   /
